@@ -65,12 +65,12 @@ p{
   letter-spacing: -1px;
   padding-top: 9px;
   font-weight: bold;
+  &:hover{
+    color:#fff;
+    text-decoration: none;
+  }
 }
 
-#logo:hover{
-  color: #fff;
-  text-decoration: none;
-}
 /*footer*/
 /*
 //origin
@@ -112,7 +112,7 @@ float: left;
 margin-left: 15px;
 
 }
-*/
+ */
 
 footer {
   margin-top: 45px;
@@ -126,44 +126,16 @@ footer {
     }
   }
   small {
-        float: left;
-      }
-      ul {
-        float: right;
-        list-style: none;
-        li {
-          float: left;
-          margin-left: 15px;
-        }
-      }
-    }
-
-/* footer */
-/*
-footer {
-  margin-top: 45px;
-  padding-top: 5px;
-  border-top: 1px solid #eaeaea;
-  color: #777;
-  a {
-   color: #555;
-   &:hover {
-   color: #222;
-   }
+    float: left;
   }
-  small {
-   float: left;
-  }
-
   ul {
     float: right;
     list-style: none;
-  li{
-    float: left;
-    margin-left: 15px;
+    li {
+      float: left;
+      margin-left: 15px;
+    }
   }
- }
 }
 
-*/
 
