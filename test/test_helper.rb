@@ -28,6 +28,7 @@ class ActiveSupport::TestCase
       session[:user_id] = user.id
     end
   end
+
   private
   #在集成测试中返回 true
   def integration_test?

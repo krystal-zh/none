@@ -1,20 +1,22 @@
 class User < ActiveRecord::Base
-  attr_accessor :remember_token,:activation_token,:reset_token
+  attr_accessor :remember_token, :activation_token, :reset_token
+
+  has_secure_password
+
   before_save :downcase_email
   before_create :create_activation_digest
-  validates :name, presence: true,length:{maximum: 50}
+
+  validates :name, presence: true, length: {maximum: 50}
   VALID_EMAIL_REGEX = /\A[ \w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
-  validates :email,presence: true,length:{maximum: 225},
+  validates :email, presence: true, length: {maximum: 225},
     format: {with: VALID_EMAIL_REGEX},
     uniqueness: {case_sensitive: false}
-  has_secure_password
-  validates :password, length: {minimum: 6},allow_blank: true
+  validates :password, length: {minimum: 6}, allow_blank: true
 
   #返回指定字符串的哈希摘要
   def User.digest(string)
-    cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST :
-                                                 BCrypt::Engine.cost
-    BCrypt::Password.create(string,cost: cost)
+    cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST : BCrypt::Engine.cost
+    BCrypt::Password.create(string, cost: cost)
   end
 
   #返回一个随机令牌
@@ -29,7 +31,7 @@ class User < ActiveRecord::Base
   end
 
   #如果指定的令牌和摘要匹配，返回 true
-  def authenticated?(attribute,token)
+  def authenticated?(attribute, token)
     digest = send("#{attribute}_digest")
     return false if digest.nil?
     BCrypt::Password.new(digest).is_password?(token)
@@ -66,9 +68,8 @@ class User < ActiveRecord::Base
   def password_reset_expired?
     reset_sent_at < 2.hours.ago
   end
+
   private
-
-
   def downcase_email
     self.email = email.downcase 
   end
@@ -78,6 +79,5 @@ class User < ActiveRecord::Base
     self.activation_token  = User.new_token
     self.activation_digest = User.digest(activation_token)
   end
-
 
 end

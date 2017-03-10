@@ -1,0 +1,366 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+20170227083741_create_users.rb	/Users/krystal.zhang/workspace/sample_app/db/migrate/20170227083741_create_users.rb	1;"	F
+20170227083741_create_users.rb	db/migrate/20170227083741_create_users.rb	1;"	F
+20170228065953_add_index_to_users_email.rb	/Users/krystal.zhang/workspace/sample_app/db/migrate/20170228065953_add_index_to_users_email.rb	1;"	F
+20170228065953_add_index_to_users_email.rb	db/migrate/20170228065953_add_index_to_users_email.rb	1;"	F
+20170228072412_add_password_digest_to_users.rb	/Users/krystal.zhang/workspace/sample_app/db/migrate/20170228072412_add_password_digest_to_users.rb	1;"	F
+20170228072412_add_password_digest_to_users.rb	db/migrate/20170228072412_add_password_digest_to_users.rb	1;"	F
+20170306072758_add_remember_digest_to_users.rb	/Users/krystal.zhang/workspace/sample_app/db/migrate/20170306072758_add_remember_digest_to_users.rb	1;"	F
+20170306072758_add_remember_digest_to_users.rb	db/migrate/20170306072758_add_remember_digest_to_users.rb	1;"	F
+20170308083151_add_admin_to_users.rb	/Users/krystal.zhang/workspace/sample_app/db/migrate/20170308083151_add_admin_to_users.rb	1;"	F
+20170308083151_add_admin_to_users.rb	db/migrate/20170308083151_add_admin_to_users.rb	1;"	F
+20170308111846_add_activation_to_users.rb	/Users/krystal.zhang/workspace/sample_app/db/migrate/20170308111846_add_activation_to_users.rb	1;"	F
+20170308111846_add_activation_to_users.rb	db/migrate/20170308111846_add_activation_to_users.rb	1;"	F
+20170309082802_add_reset_digest_to_users.rb	/Users/krystal.zhang/workspace/sample_app/db/migrate/20170309082802_add_reset_digest_to_users.rb	1;"	F
+20170309082802_add_reset_digest_to_users.rb	db/migrate/20170309082802_add_reset_digest_to_users.rb	1;"	F
+404.html	/Users/krystal.zhang/workspace/sample_app/public/404.html	1;"	F
+404.html	public/404.html	1;"	F
+422.html	/Users/krystal.zhang/workspace/sample_app/public/422.html	1;"	F
+422.html	public/422.html	1;"	F
+500.html	/Users/krystal.zhang/workspace/sample_app/public/500.html	1;"	F
+500.html	public/500.html	1;"	F
+AccountActivationsController	/Users/krystal.zhang/workspace/sample_app/app/controllers/account_activations_controller.rb	/^class AccountActivationsController < ApplicationController$/;"	c
+AccountActivationsController	app/controllers/account_activations_controller.rb	/^class AccountActivationsController < ApplicationController$/;"	c
+AccountActivatonsControllerTest	/Users/krystal.zhang/workspace/sample_app/test/controllers/account_activatons_controller_test.rb	/^class AccountActivatonsControllerTest < ActionController::TestCase$/;"	c
+AccountActivatonsControllerTest	test/controllers/account_activatons_controller_test.rb	/^class AccountActivatonsControllerTest < ActionController::TestCase$/;"	c
+AccountActivatonsHelper	/Users/krystal.zhang/workspace/sample_app/app/helpers/account_activatons_helper.rb	/^module AccountActivatonsHelper$/;"	m
+AccountActivatonsHelper	app/helpers/account_activatons_helper.rb	/^module AccountActivatonsHelper$/;"	m
+ActiveSupport	/Users/krystal.zhang/workspace/sample_app/test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+ActiveSupport	test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	c
+AddActivationToUsers	/Users/krystal.zhang/workspace/sample_app/db/migrate/20170308111846_add_activation_to_users.rb	/^class AddActivationToUsers < ActiveRecord::Migration$/;"	c
+AddActivationToUsers	db/migrate/20170308111846_add_activation_to_users.rb	/^class AddActivationToUsers < ActiveRecord::Migration$/;"	c
+AddAdminToUsers	/Users/krystal.zhang/workspace/sample_app/db/migrate/20170308083151_add_admin_to_users.rb	/^class AddAdminToUsers < ActiveRecord::Migration$/;"	c
+AddAdminToUsers	db/migrate/20170308083151_add_admin_to_users.rb	/^class AddAdminToUsers < ActiveRecord::Migration$/;"	c
+AddIndexToUsersEmail	/Users/krystal.zhang/workspace/sample_app/db/migrate/20170228065953_add_index_to_users_email.rb	/^class AddIndexToUsersEmail < ActiveRecord::Migration$/;"	c
+AddIndexToUsersEmail	db/migrate/20170228065953_add_index_to_users_email.rb	/^class AddIndexToUsersEmail < ActiveRecord::Migration$/;"	c
+AddPasswordDigestToUsers	/Users/krystal.zhang/workspace/sample_app/db/migrate/20170228072412_add_password_digest_to_users.rb	/^class AddPasswordDigestToUsers < ActiveRecord::Migration$/;"	c
+AddPasswordDigestToUsers	db/migrate/20170228072412_add_password_digest_to_users.rb	/^class AddPasswordDigestToUsers < ActiveRecord::Migration$/;"	c
+AddRememberDigestToUsers	/Users/krystal.zhang/workspace/sample_app/db/migrate/20170306072758_add_remember_digest_to_users.rb	/^class AddRememberDigestToUsers < ActiveRecord::Migration$/;"	c
+AddRememberDigestToUsers	db/migrate/20170306072758_add_remember_digest_to_users.rb	/^class AddRememberDigestToUsers < ActiveRecord::Migration$/;"	c
+AddResetDigestToUsers	/Users/krystal.zhang/workspace/sample_app/db/migrate/20170309082802_add_reset_digest_to_users.rb	/^class AddResetDigestToUsers < ActiveRecord::Migration$/;"	c
+AddResetDigestToUsers	db/migrate/20170309082802_add_reset_digest_to_users.rb	/^class AddResetDigestToUsers < ActiveRecord::Migration$/;"	c
+Application	/Users/krystal.zhang/workspace/sample_app/config/application.rb	/^  class Application < Rails::Application$/;"	c	class:SampleApp
+Application	config/application.rb	/^  class Application < Rails::Application$/;"	c	class:SampleApp
+ApplicationController	/Users/krystal.zhang/workspace/sample_app/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationController	app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	c
+ApplicationHelper	/Users/krystal.zhang/workspace/sample_app/app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+ApplicationHelper	app/helpers/application_helper.rb	/^module ApplicationHelper$/;"	m
+ApplicationMailer	/Users/krystal.zhang/workspace/sample_app/app/mailers/application_mailer.rb	/^class ApplicationMailer < ActionMailer::Base$/;"	c
+ApplicationMailer	app/mailers/application_mailer.rb	/^class ApplicationMailer < ActionMailer::Base$/;"	c
+CreateUsers	/Users/krystal.zhang/workspace/sample_app/db/migrate/20170227083741_create_users.rb	/^class CreateUsers < ActiveRecord::Migration$/;"	c
+CreateUsers	db/migrate/20170227083741_create_users.rb	/^class CreateUsers < ActiveRecord::Migration$/;"	c
+PasswordResetsController	/Users/krystal.zhang/workspace/sample_app/app/controllers/password_resets_controller.rb	/^class PasswordResetsController < ApplicationController$/;"	c
+PasswordResetsController	app/controllers/password_resets_controller.rb	/^class PasswordResetsController < ApplicationController$/;"	c
+PasswordResetsControllerTest	/Users/krystal.zhang/workspace/sample_app/test/controllers/password_resets_controller_test.rb	/^class PasswordResetsControllerTest < ActionController::TestCase$/;"	c
+PasswordResetsControllerTest	test/controllers/password_resets_controller_test.rb	/^class PasswordResetsControllerTest < ActionController::TestCase$/;"	c
+PasswordResetsHelper	/Users/krystal.zhang/workspace/sample_app/app/helpers/password_resets_helper.rb	/^module PasswordResetsHelper$/;"	m
+PasswordResetsHelper	app/helpers/password_resets_helper.rb	/^module PasswordResetsHelper$/;"	m
+PasswordResetsTest	/Users/krystal.zhang/workspace/sample_app/test/integration/password_resets_test.rb	/^class PasswordResetsTest < ActionDispatch::IntegrationTest$/;"	c
+PasswordResetsTest	test/integration/password_resets_test.rb	/^class PasswordResetsTest < ActionDispatch::IntegrationTest$/;"	c
+SampleApp	/Users/krystal.zhang/workspace/sample_app/config/application.rb	/^module SampleApp$/;"	m
+SampleApp	config/application.rb	/^module SampleApp$/;"	m
+SessionHelperTest	/Users/krystal.zhang/workspace/sample_app/test/helpers/sessions_helper_test.rb	/^class SessionHelperTest < ActionView::TestCase$/;"	c
+SessionHelperTest	test/helpers/sessions_helper_test.rb	/^class SessionHelperTest < ActionView::TestCase$/;"	c
+SessionsController	/Users/krystal.zhang/workspace/sample_app/app/controllers/sessions_controller.rb	/^class SessionsController < ApplicationController$/;"	c
+SessionsController	app/controllers/sessions_controller.rb	/^class SessionsController < ApplicationController$/;"	c
+SessionsControllerTest	/Users/krystal.zhang/workspace/sample_app/test/controllers/sessions_controller_test.rb	/^class SessionsControllerTest < ActionController::TestCase$/;"	c
+SessionsControllerTest	test/controllers/sessions_controller_test.rb	/^class SessionsControllerTest < ActionController::TestCase$/;"	c
+SessionsHelper	/Users/krystal.zhang/workspace/sample_app/app/helpers/sessions_helper.rb	/^module SessionsHelper$/;"	m
+SessionsHelper	app/helpers/sessions_helper.rb	/^module SessionsHelper$/;"	m
+SiteLayoutTest	/Users/krystal.zhang/workspace/sample_app/test/integration/site_layout_test.rb	/^class SiteLayoutTest < ActionDispatch::IntegrationTest$/;"	c
+SiteLayoutTest	test/integration/site_layout_test.rb	/^class SiteLayoutTest < ActionDispatch::IntegrationTest$/;"	c
+StaticPagesController	/Users/krystal.zhang/workspace/sample_app/app/controllers/static_pages_controller.rb	/^class StaticPagesController < ApplicationController$/;"	c
+StaticPagesController	app/controllers/static_pages_controller.rb	/^class StaticPagesController < ApplicationController$/;"	c
+StaticPagesControllerTest	/Users/krystal.zhang/workspace/sample_app/test/controllers/static_pages_controller_test.rb	/^class StaticPagesControllerTest < ActionController::TestCase$/;"	c
+StaticPagesControllerTest	test/controllers/static_pages_controller_test.rb	/^class StaticPagesControllerTest < ActionController::TestCase$/;"	c
+StaticPagesHelper	/Users/krystal.zhang/workspace/sample_app/app/helpers/static_pages_helper.rb	/^module StaticPagesHelper$/;"	m
+StaticPagesHelper	app/helpers/static_pages_helper.rb	/^module StaticPagesHelper$/;"	m
+User	/Users/krystal.zhang/workspace/sample_app/app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+User	app/models/user.rb	/^class User < ActiveRecord::Base$/;"	c
+UserMailer	/Users/krystal.zhang/workspace/sample_app/app/mailers/user_mailer.rb	/^class UserMailer < ApplicationMailer$/;"	c
+UserMailer	app/mailers/user_mailer.rb	/^class UserMailer < ApplicationMailer$/;"	c
+UserMailerPreview	/Users/krystal.zhang/workspace/sample_app/test/mailers/previews/user_mailer_preview.rb	/^class UserMailerPreview < ActionMailer::Preview$/;"	c
+UserMailerPreview	test/mailers/previews/user_mailer_preview.rb	/^class UserMailerPreview < ActionMailer::Preview$/;"	c
+UserMailerTest	/Users/krystal.zhang/workspace/sample_app/test/mailers/user_mailer_test.rb	/^class UserMailerTest < ActionMailer::TestCase$/;"	c
+UserMailerTest	test/mailers/user_mailer_test.rb	/^class UserMailerTest < ActionMailer::TestCase$/;"	c
+UserSignupTest	/Users/krystal.zhang/workspace/sample_app/test/integration/users_signup_test.rb	/^class UserSignupTest < ActionDispatch::IntegrationTest$/;"	c
+UserSignupTest	test/integration/users_signup_test.rb	/^class UserSignupTest < ActionDispatch::IntegrationTest$/;"	c
+UserTest	/Users/krystal.zhang/workspace/sample_app/test/models/user_test.rb	/^class UserTest < ActiveSupport::TestCase$/;"	c
+UserTest	test/models/user_test.rb	/^class UserTest < ActiveSupport::TestCase$/;"	c
+UsersController	/Users/krystal.zhang/workspace/sample_app/app/controllers/users_controller.rb	/^class UsersController < ApplicationController$/;"	c
+UsersController	app/controllers/users_controller.rb	/^class UsersController < ApplicationController$/;"	c
+UsersControllerTest	/Users/krystal.zhang/workspace/sample_app/test/controllers/users_controller_test.rb	/^class UsersControllerTest < ActionController::TestCase$/;"	c
+UsersControllerTest	test/controllers/users_controller_test.rb	/^class UsersControllerTest < ActionController::TestCase$/;"	c
+UsersEditTest	/Users/krystal.zhang/workspace/sample_app/test/integration/users_edit_test.rb	/^class UsersEditTest < ActionDispatch::IntegrationTest$/;"	c
+UsersEditTest	test/integration/users_edit_test.rb	/^class UsersEditTest < ActionDispatch::IntegrationTest$/;"	c
+UsersHelper	/Users/krystal.zhang/workspace/sample_app/app/helpers/users_helper.rb	/^module UsersHelper$/;"	m
+UsersHelper	app/helpers/users_helper.rb	/^module UsersHelper$/;"	m
+UsersIndexTest	/Users/krystal.zhang/workspace/sample_app/test/integration/users_index_test.rb	/^class UsersIndexTest < ActionDispatch::IntegrationTest$/;"	c
+UsersIndexTest	test/integration/users_index_test.rb	/^class UsersIndexTest < ActionDispatch::IntegrationTest$/;"	c
+UsersLoginTest	/Users/krystal.zhang/workspace/sample_app/test/integration/users_login_test.rb	/^class UsersLoginTest < ActionDispatch::IntegrationTest$/;"	c
+UsersLoginTest	test/integration/users_login_test.rb	/^class UsersLoginTest < ActionDispatch::IntegrationTest$/;"	c
+about	/Users/krystal.zhang/workspace/sample_app/app/controllers/static_pages_controller.rb	/^  def about$/;"	f	class:StaticPagesController
+about	app/controllers/static_pages_controller.rb	/^  def about$/;"	f	class:StaticPagesController
+account_activation	/Users/krystal.zhang/workspace/sample_app/app/mailers/user_mailer.rb	/^  def account_activation(user)$/;"	f	class:UserMailer
+account_activation	/Users/krystal.zhang/workspace/sample_app/test/mailers/previews/user_mailer_preview.rb	/^  def account_activation$/;"	f	class:UserMailerPreview
+account_activation	app/mailers/user_mailer.rb	/^  def account_activation(user)$/;"	f	class:UserMailer
+account_activation	test/mailers/previews/user_mailer_preview.rb	/^  def account_activation$/;"	f	class:UserMailerPreview
+account_activations_controller.rb	/Users/krystal.zhang/workspace/sample_app/app/controllers/account_activations_controller.rb	1;"	F
+account_activations_controller.rb	app/controllers/account_activations_controller.rb	1;"	F
+account_activatons_controller_test.rb	/Users/krystal.zhang/workspace/sample_app/test/controllers/account_activatons_controller_test.rb	1;"	F
+account_activatons_controller_test.rb	test/controllers/account_activatons_controller_test.rb	1;"	F
+account_activatons_helper.rb	/Users/krystal.zhang/workspace/sample_app/app/helpers/account_activatons_helper.rb	1;"	F
+account_activatons_helper.rb	app/helpers/account_activatons_helper.rb	1;"	F
+activate	/Users/krystal.zhang/workspace/sample_app/app/models/user.rb	/^  def activate$/;"	f	class:User
+activate	app/models/user.rb	/^  def activate$/;"	f	class:User
+admin_user	/Users/krystal.zhang/workspace/sample_app/app/controllers/users_controller.rb	/^    def admin_user$/;"	f	class:UsersController
+admin_user	app/controllers/users_controller.rb	/^    def admin_user$/;"	f	class:UsersController
+application.js	/Users/krystal.zhang/workspace/sample_app/app/assets/javascripts/application.js	1;"	F
+application.js	app/assets/javascripts/application.js	1;"	F
+application.rb	/Users/krystal.zhang/workspace/sample_app/config/application.rb	1;"	F
+application.rb	config/application.rb	1;"	F
+application_controller.rb	/Users/krystal.zhang/workspace/sample_app/app/controllers/application_controller.rb	1;"	F
+application_controller.rb	app/controllers/application_controller.rb	1;"	F
+application_helper.rb	/Users/krystal.zhang/workspace/sample_app/app/helpers/application_helper.rb	1;"	F
+application_helper.rb	app/helpers/application_helper.rb	1;"	F
+application_mailer.rb	/Users/krystal.zhang/workspace/sample_app/app/mailers/application_mailer.rb	1;"	F
+application_mailer.rb	app/mailers/application_mailer.rb	1;"	F
+assets.rb	/Users/krystal.zhang/workspace/sample_app/config/initializers/assets.rb	1;"	F
+assets.rb	config/initializers/assets.rb	1;"	F
+authenticated?	/Users/krystal.zhang/workspace/sample_app/app/models/user.rb	/^  def authenticated?(attribute, token)$/;"	f	class:User
+authenticated?	app/models/user.rb	/^  def authenticated?(attribute, token)$/;"	f	class:User
+backtrace_silencers.rb	/Users/krystal.zhang/workspace/sample_app/config/initializers/backtrace_silencers.rb	1;"	F
+backtrace_silencers.rb	config/initializers/backtrace_silencers.rb	1;"	F
+boot.rb	/Users/krystal.zhang/workspace/sample_app/config/boot.rb	1;"	F
+boot.rb	config/boot.rb	1;"	F
+both_passwords_blank?	/Users/krystal.zhang/workspace/sample_app/app/controllers/password_resets_controller.rb	/^  def both_passwords_blank?$/;"	f	class:PasswordResetsController
+both_passwords_blank?	app/controllers/password_resets_controller.rb	/^  def both_passwords_blank?$/;"	f	class:PasswordResetsController
+bundle	/Users/krystal.zhang/workspace/sample_app/bin/bundle	1;"	F
+bundle	bin/bundle	1;"	F
+change	/Users/krystal.zhang/workspace/sample_app/db/migrate/20170227083741_create_users.rb	/^  def change$/;"	f	class:CreateUsers
+change	/Users/krystal.zhang/workspace/sample_app/db/migrate/20170228065953_add_index_to_users_email.rb	/^  def change$/;"	f	class:AddIndexToUsersEmail
+change	/Users/krystal.zhang/workspace/sample_app/db/migrate/20170228072412_add_password_digest_to_users.rb	/^  def change$/;"	f	class:AddPasswordDigestToUsers
+change	/Users/krystal.zhang/workspace/sample_app/db/migrate/20170306072758_add_remember_digest_to_users.rb	/^  def change$/;"	f	class:AddRememberDigestToUsers
+change	/Users/krystal.zhang/workspace/sample_app/db/migrate/20170308083151_add_admin_to_users.rb	/^  def change$/;"	f	class:AddAdminToUsers
+change	/Users/krystal.zhang/workspace/sample_app/db/migrate/20170308111846_add_activation_to_users.rb	/^  def change$/;"	f	class:AddActivationToUsers
+change	/Users/krystal.zhang/workspace/sample_app/db/migrate/20170309082802_add_reset_digest_to_users.rb	/^  def change$/;"	f	class:AddResetDigestToUsers
+change	db/migrate/20170227083741_create_users.rb	/^  def change$/;"	f	class:CreateUsers
+change	db/migrate/20170228065953_add_index_to_users_email.rb	/^  def change$/;"	f	class:AddIndexToUsersEmail
+change	db/migrate/20170228072412_add_password_digest_to_users.rb	/^  def change$/;"	f	class:AddPasswordDigestToUsers
+change	db/migrate/20170306072758_add_remember_digest_to_users.rb	/^  def change$/;"	f	class:AddRememberDigestToUsers
+change	db/migrate/20170308083151_add_admin_to_users.rb	/^  def change$/;"	f	class:AddAdminToUsers
+change	db/migrate/20170308111846_add_activation_to_users.rb	/^  def change$/;"	f	class:AddActivationToUsers
+change	db/migrate/20170309082802_add_reset_digest_to_users.rb	/^  def change$/;"	f	class:AddResetDigestToUsers
+check_expiration	/Users/krystal.zhang/workspace/sample_app/app/controllers/password_resets_controller.rb	/^  def check_expiration$/;"	f	class:PasswordResetsController
+check_expiration	app/controllers/password_resets_controller.rb	/^  def check_expiration$/;"	f	class:PasswordResetsController
+contact	/Users/krystal.zhang/workspace/sample_app/app/controllers/static_pages_controller.rb	/^  def contact$/;"	f	class:StaticPagesController
+contact	app/controllers/static_pages_controller.rb	/^  def contact$/;"	f	class:StaticPagesController
+cookies_serializer.rb	/Users/krystal.zhang/workspace/sample_app/config/initializers/cookies_serializer.rb	1;"	F
+cookies_serializer.rb	config/initializers/cookies_serializer.rb	1;"	F
+correct_user	/Users/krystal.zhang/workspace/sample_app/app/controllers/users_controller.rb	/^    def correct_user$/;"	f	class:UsersController
+correct_user	app/controllers/users_controller.rb	/^    def correct_user$/;"	f	class:UsersController
+create	/Users/krystal.zhang/workspace/sample_app/app/controllers/password_resets_controller.rb	/^  def create$/;"	f	class:PasswordResetsController
+create	/Users/krystal.zhang/workspace/sample_app/app/controllers/sessions_controller.rb	/^  def create$/;"	f	class:SessionsController
+create	/Users/krystal.zhang/workspace/sample_app/app/controllers/users_controller.rb	/^  def create$/;"	f	class:UsersController
+create	app/controllers/password_resets_controller.rb	/^  def create$/;"	f	class:PasswordResetsController
+create	app/controllers/sessions_controller.rb	/^  def create$/;"	f	class:SessionsController
+create	app/controllers/users_controller.rb	/^  def create$/;"	f	class:UsersController
+create_activation_digest	/Users/krystal.zhang/workspace/sample_app/app/models/user.rb	/^  def create_activation_digest$/;"	f	class:User
+create_activation_digest	app/models/user.rb	/^  def create_activation_digest$/;"	f	class:User
+create_reset_digest	/Users/krystal.zhang/workspace/sample_app/app/models/user.rb	/^  def create_reset_digest$/;"	f	class:User
+create_reset_digest	app/models/user.rb	/^  def create_reset_digest$/;"	f	class:User
+current_user	/Users/krystal.zhang/workspace/sample_app/app/helpers/sessions_helper.rb	/^  def current_user$/;"	f	class:SessionsHelper
+current_user	app/helpers/sessions_helper.rb	/^  def current_user$/;"	f	class:SessionsHelper
+current_user?	/Users/krystal.zhang/workspace/sample_app/app/helpers/sessions_helper.rb	/^  def current_user?(user)$/;"	f	class:SessionsHelper
+current_user?	app/helpers/sessions_helper.rb	/^  def current_user?(user)$/;"	f	class:SessionsHelper
+destroy	/Users/krystal.zhang/workspace/sample_app/app/controllers/sessions_controller.rb	/^  def destroy$/;"	f	class:SessionsController
+destroy	/Users/krystal.zhang/workspace/sample_app/app/controllers/users_controller.rb	/^  def destroy$/;"	f	class:UsersController
+destroy	app/controllers/sessions_controller.rb	/^  def destroy$/;"	f	class:SessionsController
+destroy	app/controllers/users_controller.rb	/^  def destroy$/;"	f	class:UsersController
+development.rb	/Users/krystal.zhang/workspace/sample_app/config/environments/development.rb	1;"	F
+development.rb	config/environments/development.rb	1;"	F
+digest	/Users/krystal.zhang/workspace/sample_app/app/models/user.rb	/^  def User.digest(string)$/;"	F	class:User
+digest	app/models/user.rb	/^  def User.digest(string)$/;"	F	class:User
+downcase_email	/Users/krystal.zhang/workspace/sample_app/app/models/user.rb	/^  def downcase_email$/;"	f	class:User
+downcase_email	app/models/user.rb	/^  def downcase_email$/;"	f	class:User
+edit	/Users/krystal.zhang/workspace/sample_app/app/controllers/account_activations_controller.rb	/^  def edit$/;"	f	class:AccountActivationsController
+edit	/Users/krystal.zhang/workspace/sample_app/app/controllers/password_resets_controller.rb	/^  def edit$/;"	f	class:PasswordResetsController
+edit	/Users/krystal.zhang/workspace/sample_app/app/controllers/users_controller.rb	/^  def edit$/;"	f	class:UsersController
+edit	app/controllers/account_activations_controller.rb	/^  def edit$/;"	f	class:AccountActivationsController
+edit	app/controllers/password_resets_controller.rb	/^  def edit$/;"	f	class:PasswordResetsController
+edit	app/controllers/users_controller.rb	/^  def edit$/;"	f	class:UsersController
+environment.rb	/Users/krystal.zhang/workspace/sample_app/config/environment.rb	1;"	F
+environment.rb	config/environment.rb	1;"	F
+filter_parameter_logging.rb	/Users/krystal.zhang/workspace/sample_app/config/initializers/filter_parameter_logging.rb	1;"	F
+filter_parameter_logging.rb	config/initializers/filter_parameter_logging.rb	1;"	F
+forget	/Users/krystal.zhang/workspace/sample_app/app/helpers/sessions_helper.rb	/^  def forget(user)$/;"	f	class:SessionsHelper
+forget	/Users/krystal.zhang/workspace/sample_app/app/models/user.rb	/^  def forget$/;"	f	class:User
+forget	app/helpers/sessions_helper.rb	/^  def forget(user)$/;"	f	class:SessionsHelper
+forget	app/models/user.rb	/^  def forget$/;"	f	class:User
+full_title	/Users/krystal.zhang/workspace/sample_app/app/helpers/application_helper.rb	/^  def full_title(page_title = '')$/;"	f	class:ApplicationHelper
+full_title	app/helpers/application_helper.rb	/^  def full_title(page_title = '')$/;"	f	class:ApplicationHelper
+get_user	/Users/krystal.zhang/workspace/sample_app/app/controllers/password_resets_controller.rb	/^  def get_user$/;"	f	class:PasswordResetsController
+get_user	app/controllers/password_resets_controller.rb	/^  def get_user$/;"	f	class:PasswordResetsController
+gravatar_for	/Users/krystal.zhang/workspace/sample_app/app/helpers/users_helper.rb	/^  def gravatar_for(user,options ={ size: 80 })$/;"	f	class:UsersHelper
+gravatar_for	app/helpers/users_helper.rb	/^  def gravatar_for(user,options ={ size: 80 })$/;"	f	class:UsersHelper
+help	/Users/krystal.zhang/workspace/sample_app/app/controllers/static_pages_controller.rb	/^  def help$/;"	f	class:StaticPagesController
+help	app/controllers/static_pages_controller.rb	/^  def help$/;"	f	class:StaticPagesController
+home	/Users/krystal.zhang/workspace/sample_app/app/controllers/static_pages_controller.rb	/^  def home$/;"	f	class:StaticPagesController
+home	app/controllers/static_pages_controller.rb	/^  def home$/;"	f	class:StaticPagesController
+index	/Users/krystal.zhang/workspace/sample_app/app/controllers/users_controller.rb	/^  def index$/;"	f	class:UsersController
+index	app/controllers/users_controller.rb	/^  def index$/;"	f	class:UsersController
+inflections.rb	/Users/krystal.zhang/workspace/sample_app/config/initializers/inflections.rb	1;"	F
+inflections.rb	config/initializers/inflections.rb	1;"	F
+integration_test?	/Users/krystal.zhang/workspace/sample_app/test/test_helper.rb	/^  def integration_test?$/;"	f	class:ActiveSupport
+integration_test?	test/test_helper.rb	/^  def integration_test?$/;"	f	class:ActiveSupport
+is_logged_in?	/Users/krystal.zhang/workspace/sample_app/test/test_helper.rb	/^  def is_logged_in?$/;"	f	class:ActiveSupport
+is_logged_in?	test/test_helper.rb	/^  def is_logged_in?$/;"	f	class:ActiveSupport
+log_in	/Users/krystal.zhang/workspace/sample_app/app/helpers/sessions_helper.rb	/^  def log_in(user)$/;"	f	class:SessionsHelper
+log_in	app/helpers/sessions_helper.rb	/^  def log_in(user)$/;"	f	class:SessionsHelper
+log_in_as	/Users/krystal.zhang/workspace/sample_app/test/test_helper.rb	/^  def log_in_as(user,options = {})$/;"	f	class:ActiveSupport
+log_in_as	test/test_helper.rb	/^  def log_in_as(user,options = {})$/;"	f	class:ActiveSupport
+log_out	/Users/krystal.zhang/workspace/sample_app/app/helpers/sessions_helper.rb	/^  def log_out$/;"	f	class:SessionsHelper
+log_out	app/helpers/sessions_helper.rb	/^  def log_out$/;"	f	class:SessionsHelper
+logged_in?	/Users/krystal.zhang/workspace/sample_app/app/helpers/sessions_helper.rb	/^  def logged_in?$/;"	f	class:SessionsHelper
+logged_in?	app/helpers/sessions_helper.rb	/^  def logged_in?$/;"	f	class:SessionsHelper
+logged_in_user	/Users/krystal.zhang/workspace/sample_app/app/controllers/users_controller.rb	/^    def logged_in_user$/;"	f	class:UsersController
+logged_in_user	app/controllers/users_controller.rb	/^    def logged_in_user$/;"	f	class:UsersController
+mime_types.rb	/Users/krystal.zhang/workspace/sample_app/config/initializers/mime_types.rb	1;"	F
+mime_types.rb	config/initializers/mime_types.rb	1;"	F
+new	/Users/krystal.zhang/workspace/sample_app/app/controllers/password_resets_controller.rb	/^  def new$/;"	f	class:PasswordResetsController
+new	/Users/krystal.zhang/workspace/sample_app/app/controllers/sessions_controller.rb	/^  def new$/;"	f	class:SessionsController
+new	/Users/krystal.zhang/workspace/sample_app/app/controllers/users_controller.rb	/^  def new$/;"	f	class:UsersController
+new	app/controllers/password_resets_controller.rb	/^  def new$/;"	f	class:PasswordResetsController
+new	app/controllers/sessions_controller.rb	/^  def new$/;"	f	class:SessionsController
+new	app/controllers/users_controller.rb	/^  def new$/;"	f	class:UsersController
+new_token	/Users/krystal.zhang/workspace/sample_app/app/models/user.rb	/^  def User.new_token$/;"	F	class:User
+new_token	app/models/user.rb	/^  def User.new_token$/;"	F	class:User
+password_reset	/Users/krystal.zhang/workspace/sample_app/app/mailers/user_mailer.rb	/^  def password_reset(user)$/;"	f	class:UserMailer
+password_reset	/Users/krystal.zhang/workspace/sample_app/test/mailers/previews/user_mailer_preview.rb	/^  def password_reset$/;"	f	class:UserMailerPreview
+password_reset	app/mailers/user_mailer.rb	/^  def password_reset(user)$/;"	f	class:UserMailer
+password_reset	test/mailers/previews/user_mailer_preview.rb	/^  def password_reset$/;"	f	class:UserMailerPreview
+password_reset_expired?	/Users/krystal.zhang/workspace/sample_app/app/models/user.rb	/^  def password_reset_expired?$/;"	f	class:User
+password_reset_expired?	app/models/user.rb	/^  def password_reset_expired?$/;"	f	class:User
+password_resets_controller.rb	/Users/krystal.zhang/workspace/sample_app/app/controllers/password_resets_controller.rb	1;"	F
+password_resets_controller.rb	app/controllers/password_resets_controller.rb	1;"	F
+password_resets_controller_test.rb	/Users/krystal.zhang/workspace/sample_app/test/controllers/password_resets_controller_test.rb	1;"	F
+password_resets_controller_test.rb	test/controllers/password_resets_controller_test.rb	1;"	F
+password_resets_helper.rb	/Users/krystal.zhang/workspace/sample_app/app/helpers/password_resets_helper.rb	1;"	F
+password_resets_helper.rb	app/helpers/password_resets_helper.rb	1;"	F
+password_resets_test.rb	/Users/krystal.zhang/workspace/sample_app/test/integration/password_resets_test.rb	1;"	F
+password_resets_test.rb	test/integration/password_resets_test.rb	1;"	F
+production.rb	/Users/krystal.zhang/workspace/sample_app/config/environments/production.rb	1;"	F
+production.rb	config/environments/production.rb	1;"	F
+rails	/Users/krystal.zhang/workspace/sample_app/bin/rails	1;"	F
+rails	bin/rails	1;"	F
+rake	/Users/krystal.zhang/workspace/sample_app/bin/rake	1;"	F
+rake	bin/rake	1;"	F
+redirect_back_or	/Users/krystal.zhang/workspace/sample_app/app/helpers/sessions_helper.rb	/^  def redirect_back_or(default)$/;"	f	class:SessionsHelper
+redirect_back_or	app/helpers/sessions_helper.rb	/^  def redirect_back_or(default)$/;"	f	class:SessionsHelper
+redirect_back_to	/Users/krystal.zhang/workspace/sample_app/app/helpers/sessions_helper.rb	/^  def redirect_back_to(default)$/;"	f	class:SessionsHelper
+redirect_back_to	app/helpers/sessions_helper.rb	/^  def redirect_back_to(default)$/;"	f	class:SessionsHelper
+remember	/Users/krystal.zhang/workspace/sample_app/app/helpers/sessions_helper.rb	/^  def remember(user)$/;"	f	class:SessionsHelper
+remember	/Users/krystal.zhang/workspace/sample_app/app/models/user.rb	/^  def remember$/;"	f	class:User
+remember	app/helpers/sessions_helper.rb	/^  def remember(user)$/;"	f	class:SessionsHelper
+remember	app/models/user.rb	/^  def remember$/;"	f	class:User
+routes.rb	/Users/krystal.zhang/workspace/sample_app/config/routes.rb	1;"	F
+routes.rb	config/routes.rb	1;"	F
+schema.rb	/Users/krystal.zhang/workspace/sample_app/db/schema.rb	1;"	F
+schema.rb	db/schema.rb	1;"	F
+seeds.rb	/Users/krystal.zhang/workspace/sample_app/db/seeds.rb	1;"	F
+seeds.rb	db/seeds.rb	1;"	F
+send_activation_email	/Users/krystal.zhang/workspace/sample_app/app/models/user.rb	/^  def send_activation_email$/;"	f	class:User
+send_activation_email	app/models/user.rb	/^  def send_activation_email$/;"	f	class:User
+send_password_reset_email	/Users/krystal.zhang/workspace/sample_app/app/models/user.rb	/^  def send_password_reset_email$/;"	f	class:User
+send_password_reset_email	app/models/user.rb	/^  def send_password_reset_email$/;"	f	class:User
+session_store.rb	/Users/krystal.zhang/workspace/sample_app/config/initializers/session_store.rb	1;"	F
+session_store.rb	config/initializers/session_store.rb	1;"	F
+sessions_controller.rb	/Users/krystal.zhang/workspace/sample_app/app/controllers/sessions_controller.rb	1;"	F
+sessions_controller.rb	app/controllers/sessions_controller.rb	1;"	F
+sessions_controller_test.rb	/Users/krystal.zhang/workspace/sample_app/test/controllers/sessions_controller_test.rb	1;"	F
+sessions_controller_test.rb	test/controllers/sessions_controller_test.rb	1;"	F
+sessions_helper.rb	/Users/krystal.zhang/workspace/sample_app/app/helpers/sessions_helper.rb	1;"	F
+sessions_helper.rb	app/helpers/sessions_helper.rb	1;"	F
+sessions_helper_test.rb	/Users/krystal.zhang/workspace/sample_app/test/helpers/sessions_helper_test.rb	1;"	F
+sessions_helper_test.rb	test/helpers/sessions_helper_test.rb	1;"	F
+setup	/Users/krystal.zhang/workspace/sample_app/bin/setup	1;"	F
+setup	/Users/krystal.zhang/workspace/sample_app/test/controllers/password_resets_controller_test.rb	/^  def setup$/;"	f	class:PasswordResetsControllerTest
+setup	/Users/krystal.zhang/workspace/sample_app/test/controllers/users_controller_test.rb	/^  def setup$/;"	f	class:UsersControllerTest
+setup	/Users/krystal.zhang/workspace/sample_app/test/helpers/sessions_helper_test.rb	/^  def setup$/;"	f	class:SessionHelperTest
+setup	/Users/krystal.zhang/workspace/sample_app/test/integration/password_resets_test.rb	/^  def setup$/;"	f	class:PasswordResetsTest
+setup	/Users/krystal.zhang/workspace/sample_app/test/integration/users_edit_test.rb	/^  def setup$/;"	f	class:UsersEditTest
+setup	/Users/krystal.zhang/workspace/sample_app/test/integration/users_index_test.rb	/^  def setup$/;"	f	class:UsersIndexTest
+setup	/Users/krystal.zhang/workspace/sample_app/test/integration/users_login_test.rb	/^  def setup$/;"	f	class:UsersLoginTest
+setup	/Users/krystal.zhang/workspace/sample_app/test/integration/users_signup_test.rb	/^  def setup$/;"	f	class:UserSignupTest
+setup	/Users/krystal.zhang/workspace/sample_app/test/models/user_test.rb	/^  def setup$/;"	f	class:UserTest
+setup	bin/setup	1;"	F
+setup	test/controllers/password_resets_controller_test.rb	/^  def setup$/;"	f	class:PasswordResetsControllerTest
+setup	test/controllers/users_controller_test.rb	/^  def setup$/;"	f	class:UsersControllerTest
+setup	test/helpers/sessions_helper_test.rb	/^  def setup$/;"	f	class:SessionHelperTest
+setup	test/integration/password_resets_test.rb	/^  def setup$/;"	f	class:PasswordResetsTest
+setup	test/integration/users_edit_test.rb	/^  def setup$/;"	f	class:UsersEditTest
+setup	test/integration/users_index_test.rb	/^  def setup$/;"	f	class:UsersIndexTest
+setup	test/integration/users_login_test.rb	/^  def setup$/;"	f	class:UsersLoginTest
+setup	test/integration/users_signup_test.rb	/^  def setup$/;"	f	class:UserSignupTest
+setup	test/models/user_test.rb	/^  def setup$/;"	f	class:UserTest
+show	/Users/krystal.zhang/workspace/sample_app/app/controllers/users_controller.rb	/^  def show$/;"	f	class:UsersController
+show	app/controllers/users_controller.rb	/^  def show$/;"	f	class:UsersController
+site_layout_test.rb	/Users/krystal.zhang/workspace/sample_app/test/integration/site_layout_test.rb	1;"	F
+site_layout_test.rb	test/integration/site_layout_test.rb	1;"	F
+spring	/Users/krystal.zhang/workspace/sample_app/bin/spring	1;"	F
+spring	bin/spring	1;"	F
+static_pages_controller.rb	/Users/krystal.zhang/workspace/sample_app/app/controllers/static_pages_controller.rb	1;"	F
+static_pages_controller.rb	app/controllers/static_pages_controller.rb	1;"	F
+static_pages_controller_test.rb	/Users/krystal.zhang/workspace/sample_app/test/controllers/static_pages_controller_test.rb	1;"	F
+static_pages_controller_test.rb	test/controllers/static_pages_controller_test.rb	1;"	F
+static_pages_helper.rb	/Users/krystal.zhang/workspace/sample_app/app/helpers/static_pages_helper.rb	1;"	F
+static_pages_helper.rb	app/helpers/static_pages_helper.rb	1;"	F
+store_location	/Users/krystal.zhang/workspace/sample_app/app/helpers/sessions_helper.rb	/^  def store_location$/;"	f	class:SessionsHelper
+store_location	app/helpers/sessions_helper.rb	/^  def store_location$/;"	f	class:SessionsHelper
+test.rb	/Users/krystal.zhang/workspace/sample_app/config/environments/test.rb	1;"	F
+test.rb	config/environments/test.rb	1;"	F
+test_helper.rb	/Users/krystal.zhang/workspace/sample_app/test/test_helper.rb	1;"	F
+test_helper.rb	test/test_helper.rb	1;"	F
+unicorn.rb	/Users/krystal.zhang/workspace/sample_app/config/unicorn.rb	1;"	F
+unicorn.rb	config/unicorn.rb	1;"	F
+update	/Users/krystal.zhang/workspace/sample_app/app/controllers/password_resets_controller.rb	/^  def update$/;"	f	class:PasswordResetsController
+update	/Users/krystal.zhang/workspace/sample_app/app/controllers/users_controller.rb	/^  def update$/;"	f	class:UsersController
+update	app/controllers/password_resets_controller.rb	/^  def update$/;"	f	class:PasswordResetsController
+update	app/controllers/users_controller.rb	/^  def update$/;"	f	class:UsersController
+user.rb	/Users/krystal.zhang/workspace/sample_app/app/models/user.rb	1;"	F
+user.rb	app/models/user.rb	1;"	F
+user_mailer.rb	/Users/krystal.zhang/workspace/sample_app/app/mailers/user_mailer.rb	1;"	F
+user_mailer.rb	app/mailers/user_mailer.rb	1;"	F
+user_mailer_preview.rb	/Users/krystal.zhang/workspace/sample_app/test/mailers/previews/user_mailer_preview.rb	1;"	F
+user_mailer_preview.rb	test/mailers/previews/user_mailer_preview.rb	1;"	F
+user_mailer_test.rb	/Users/krystal.zhang/workspace/sample_app/test/mailers/user_mailer_test.rb	1;"	F
+user_mailer_test.rb	test/mailers/user_mailer_test.rb	1;"	F
+user_params	/Users/krystal.zhang/workspace/sample_app/app/controllers/password_resets_controller.rb	/^  def user_params$/;"	f	class:PasswordResetsController
+user_params	/Users/krystal.zhang/workspace/sample_app/app/controllers/users_controller.rb	/^    def user_params$/;"	f	class:UsersController
+user_params	app/controllers/password_resets_controller.rb	/^  def user_params$/;"	f	class:PasswordResetsController
+user_params	app/controllers/users_controller.rb	/^    def user_params$/;"	f	class:UsersController
+user_test.rb	/Users/krystal.zhang/workspace/sample_app/test/models/user_test.rb	1;"	F
+user_test.rb	test/models/user_test.rb	1;"	F
+users_controller.rb	/Users/krystal.zhang/workspace/sample_app/app/controllers/users_controller.rb	1;"	F
+users_controller.rb	app/controllers/users_controller.rb	1;"	F
+users_controller_test.rb	/Users/krystal.zhang/workspace/sample_app/test/controllers/users_controller_test.rb	1;"	F
+users_controller_test.rb	test/controllers/users_controller_test.rb	1;"	F
+users_edit_test.rb	/Users/krystal.zhang/workspace/sample_app/test/integration/users_edit_test.rb	1;"	F
+users_edit_test.rb	test/integration/users_edit_test.rb	1;"	F
+users_helper.rb	/Users/krystal.zhang/workspace/sample_app/app/helpers/users_helper.rb	1;"	F
+users_helper.rb	app/helpers/users_helper.rb	1;"	F
+users_index_test.rb	/Users/krystal.zhang/workspace/sample_app/test/integration/users_index_test.rb	1;"	F
+users_index_test.rb	test/integration/users_index_test.rb	1;"	F
+users_login_test.rb	/Users/krystal.zhang/workspace/sample_app/test/integration/users_login_test.rb	1;"	F
+users_login_test.rb	test/integration/users_login_test.rb	1;"	F
+users_signup_test.rb	/Users/krystal.zhang/workspace/sample_app/test/integration/users_signup_test.rb	1;"	F
+users_signup_test.rb	test/integration/users_signup_test.rb	1;"	F
+valid_user	/Users/krystal.zhang/workspace/sample_app/app/controllers/password_resets_controller.rb	/^  def valid_user$/;"	f	class:PasswordResetsController
+valid_user	app/controllers/password_resets_controller.rb	/^  def valid_user$/;"	f	class:PasswordResetsController
+wrap_parameters.rb	/Users/krystal.zhang/workspace/sample_app/config/initializers/wrap_parameters.rb	1;"	F
+wrap_parameters.rb	config/initializers/wrap_parameters.rb	1;"	F
