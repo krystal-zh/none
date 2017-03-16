@@ -3,30 +3,30 @@ lock "3.8.0"
 
 
 set :application, "sample_app"
-set :deploy_user, "krystal"
-set :pid_file, "#{deploy_to}/current/tmp/pids/unicorn.pid"
 set :repo_url, "https://github.com/krystal-zh/sample_app"
-set :listen_port, 3000
-
-set :keep_releases, 5
-set :linked_files, %w{config/database.yml config/application.rb config/secrets.yml}
-set :linked_dirsm, %w{bin tmp/pids tmp/sockets vendor/bundle public/system}
-set :rvm_ruby_version, '2.2.2@rails4'
-set :rvm_roles, [:web]
-set :rails_env, 'staging'
-set :migration_role, :db
-
-set :deploy_to, "/var/www/sample_app"
-set :git_shallow_clone, 1
-
-role :web, "localhost:8082"
-role :db, "localhost:8082, :primary => true"
+set :pid_file, "#{deploy_to}/current/tmp/pids/unicorn.pid"
 
 #unicorn.rb path
 set :unicorn_path, "#{deploy_to}/current/config/unicorn.rb"
 set :unicorn_config_file, "#{current_path}/config/unicorn.rb"
+set :listen_port, 3000
+
+set :deploy_to, -> {"/var/www/#{fetch(:application)}"}
+set :format, :pretty
+set :log_level, :debug
+
+set :linked_files, %w{config/database.yml config/application.rb config/secrets.yml}
+set :linked_dirsm, %w{bin tmp/pids tmp/sockets vendor/bundle public/system}
+
+set :rvm_ruby_version, '2.2.2@rails4'
+set :migration_role, :db
+
 
 set :keep_releases, 2
+set :git_shallow_clone, 1
+
+
+
 
 namespace :deploy do
   task :start do
