@@ -1,3 +1,4 @@
+APP_PORT ||= ENV['APP_PORT'] || 3000
 puts "app_port: #{APP_PORT}"
 APP_PATH = ENV['WORKING_DIRECTORY'] || File.expand_path('../..', __FILE__)
 puts "working_directory: #{APP_PATH}"
