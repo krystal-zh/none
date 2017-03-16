@@ -18,7 +18,7 @@ set :log_level, :debug
 set :linked_files, %w{config/database.yml config/application.rb config/secrets.yml}
 set :linked_dirsm, %w{bin tmp/pids tmp/sockets vendor/bundle public/system}
 
-set :rvm_ruby_version, '2.2.2@rails4'
+set :rvm_ruby_version, '2.3.3'
 set :migration_role, :db
 
 

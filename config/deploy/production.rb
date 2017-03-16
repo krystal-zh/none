@@ -8,6 +8,7 @@ server "127.0.0.1:2222", user: "krystal", roles: %w{app db web}
 # server "example.com", user: "deploy", roles: %w{app web}, other_property: :other_value
 # server "db.example.com", user: "deploy", roles: %w{db}
 
+set :bundle_flags, '--deployment --quiet --local'
 
 
 # role-based syntax
