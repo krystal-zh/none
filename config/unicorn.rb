@@ -15,7 +15,7 @@ working_directory  APP_PATH
 pid PID_PATH
 
 listen APP_PORT, :tcp_nopush => false
-listen "/tmp/unicorn.capstrano_demo.sock"
+listen "/tmp/unicorn.sample_app.sock"
 
 worker_processes WORKER_PROCESSES
 timeout 120
