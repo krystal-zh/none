@@ -1,23 +1,74 @@
 # config valid only for current version of Capistrano
 lock "3.8.0"
 
-set :application, "my_app_name"
-set :deploy_user, "krystal"
 
+set :application, "sample_app"
+set :deploy_user, "krystal"
+set :pid_file, "#{deploy_to}/current/tmp/pids/unicorn.pid"
 set :repo_url, "https://github.com/krystal-zh/sample_app"
+set :listen_port, 3000
 
 set :keep_releases, 5
 set :linked_files, %w{config/database.yml config/application.rb config/secrets.yml}
 set :linked_dirsm, %w{bin tmp/pids tmp/sockets vendor/bundle public/system}
 set :rvm_ruby_version, '2.2.2@rails4'
-
+set :rvm_roles, [:web]
 set :rails_env, 'staging'
 set :migration_role, :db
 
-namespace :deploy do
+set :deploy_to, "/var/www/sample_app"
+set :git_shallow_clone, 1
 
+role :web, "localhost:8082"
+role :db, "localhost:8082, :primary => true"
+
+#unicorn.rb path
+set :unicorn_path, "#{deploy_to}/current/config/unicorn.rb"
+set :unicorn_config_file, "#{current_path}/config/unicorn.rb"
+
+set :keep_releases, 2
+
+namespace :deploy do
+  task :start do
+    on roles(:app) do
+      execute %{source /etc/profile.d/rvm.sh && rvm use #{fetch(:rvm_ruby_version)} && cd #{current_path} && if [ ! -f #{fetch(:pid_file)} ]; then UNICORN_WORKER_NUM=#{fetch(:unicorn_worker_num)} RAILS_ENV=#{fetch(:env)} APP_PORT=#{fetch(:listen_port)} bundle exec unicorn -c #{fetch(:unicorn_config_file)} -D; fi}
+    end
+  end
+
+  task :stop do
+    on roles(:app) do
+      execute %{source /etc/profile.d/rvm.sh && cd #{current_path} && if [ -f #{fetch(:pid_file)} ] && kill -0 `cat #{fetch(:pid_file)}`> /dev/null 2>&1; then kill -QUIT `cat #{fetch(:pid_file)}`; else rm #{fetch(:pid_file)} || exit 0; fi}
+    end
+  end
+
+  task :restart do
+    on roles(:app) do
+      execute %{source /etc/profile.d/rvm.sh && cd #{current_path} && if [ -f #{fetch(:pid_file)} ] && kill -0 `cat #{fetch(:pid_file)}`> /dev/null 2>&1; then kill -HUP `cat #{fetch(:pid_file)}`; else rm #{fetch(:pid_file)} || UNICORN_WORKER_NUM=#{fetch(:unicorn_worker_num)} RAILS_ENV=#{fetch(:env)} APP_PORT=#{fetch(:listen_port)} bundle exec unicorn -c #{fetch(:unicorn_config_file)} -D; fi}
+    end
+  end
+
+  task :localize_config do
+    on roles(:app) do
+      execute "cd #{current_path} && echo #{fetch(:apns_prefix)} > config/apns_prefix.txt"
+    end
+  end
+
+  desc "initialize the server folders"
+  task :setup do
+    on roles(:app) do
+      execute "mkdir -p #{deploy_to}/releases"
+      execute "mkdir -p #{deploy_to}/shared/log"
+      execute "mkdir -p #{deploy_to}/shared/tmp/pids"
+      execute "mkdir -p #{deploy_to}/shared/public"
+      execute "mkdir -p #{deploy_to}/shared/tmp"
+    end
+  end
+
+  after 'deploy:symlink:release', 'deploy:localize_config'
   after :finishing, 'deploy:cleanup'
+  after 'deploy:cleanup', 'deploy:start'
 end
+
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
